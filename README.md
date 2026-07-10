@@ -45,7 +45,7 @@ I was born in Castellammare di Stabia, Italy. I have lived in various Italian ci
 ![Kafka](https://img.shields.io/badge/Kafka-231F20?style=flat-square&logo=apachekafka&logoColor=white)
 ![RabbitMQ](https://img.shields.io/badge/RabbitMQ-FF6600?style=flat-square&logo=rabbitmq&logoColor=white)
 
-🛠️ **Microsoft Stack**: .NET 8/9, C#, .NET Core, Blazor, Hybrid Blazor, ASP.NET MVC, .NET Aspire
+🛠️ **Microsoft Stack**: .NET from 1.0 to 8/9/10/11, C#, .NET Core, Blazor, Hybrid Blazor, ASP.NET MVC, .NET Aspire
 
 ![C#](https://img.shields.io/badge/C%23-239120?style=flat-square&logo=csharp&logoColor=white)
 ![.NET](https://img.shields.io/badge/.NET_8%2F9-512BD4?style=flat-square&logo=dotnet&logoColor=white)
