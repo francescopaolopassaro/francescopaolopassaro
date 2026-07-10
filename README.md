@@ -123,13 +123,28 @@ Creator and developer of proprietary AI solutions for automation and data protec
 
 ---
 
+## Blazor Components (Free for Dev)
+
+| Project | Description | Tech |
+|---------|-------------|------|
+| [**Stilo**](https://github.com/francescopaolopassaro/Stilo) | WYSIWYG HTML editor library for Blazor applications, compatible with MudBlazor | ![Blazor](https://img.shields.io/badge/-Blazor-512BD4?style=flat-square&logo=blazor&logoColor=white) |
+
+---
+
+## UI/UX - Accessibility
+
+| Project | Description | Tech |
+|---------|-------------|------|
+| [**FlowAble**](https://github.com/francescopaolopassaro/FlowAble) | Modern JavaScript library built to bridge the gap between complex web interfaces and digital accessibility (a11y). Zero-dependency, standalone accessibility toolbar with 25+ features, all processing client-side, supporting 35 languages | ![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black) |
+
+---
+
 ## Open Source Projects
 
 ### Blazor & .NET
 
 | Project | Description | Tech |
 |---------|-------------|------|
-| [**Stilo**](https://github.com/francescopaolopassaro/Stilo) | WYSIWYG HTML editor library for Blazor applications, compatible with MudBlazor | ![Blazor](https://img.shields.io/badge/-Blazor-512BD4?style=flat-square&logo=blazor&logoColor=white) |
 | [**Pkl.Net**](https://github.com/francescopaolopassaro/Pkl.Net) | Type-safe configuration library bringing Apple's Pkl language to .NET | ![C#](https://img.shields.io/badge/-C%23-239120?style=flat-square&logo=csharp&logoColor=white) |
 | [**netguard**](https://github.com/francescopaolopassaro/netguard) | Desktop security monitor built with .NET 9 MAUI for Windows/Linux | ![.NET](https://img.shields.io/badge/-.NET_9-512BD4?style=flat-square&logo=dotnet&logoColor=white) |
 | [**SimpleWPFReporting**](https://github.com/francescopaolopassaro/SimpleWPFReporting) | WPF reporting solution | ![C#](https://img.shields.io/badge/-C%23-239120?style=flat-square&logo=csharp&logoColor=white) |
@@ -149,6 +164,37 @@ Creator and developer of proprietary AI solutions for automation and data protec
 |---------|-------------|------|
 | [**DevPower-Shell-Utils**](https://github.com/francescopaolopassaro/DevPower-Shell-Utils) | Scripts automating repetitive developer tasks | ![PowerShell](https://img.shields.io/badge/-PowerShell-5391FE?style=flat-square&logo=powershell&logoColor=white) |
 | [**ollama-docker-collections**](https://github.com/francescopaolopassaro/ollama-docker-collections) | Docker Compose configs for running LLMs locally | ![Docker](https://img.shields.io/badge/-Docker-2496ED?style=flat-square&logo=docker&logoColor=white) ![Ollama](https://img.shields.io/badge/-Ollama-000000?style=flat-square) |
+
+---
+
+<!--
+## GitHub Stats
+(disabled: public github-readme-stats/streak-stats instances are returning 503 — rate-limited.
+Steps to fix are in TODO-github-stats.md. Once a personal Vercel deploy is ready,
+replace github-readme-stats.vercel.app / streak-stats.demolab.com below with the new domain
+and uncomment this block.)
+
+<div align="center">
+  <picture>
+    <source srcset="https://github-readme-stats.vercel.app/api?username=francescopaolopassaro&show_icons=true&theme=tokyonight&hide_border=true&rank_icon=github" media="(prefers-color-scheme: dark)" />
+    <source srcset="https://github-readme-stats.vercel.app/api?username=francescopaolopassaro&show_icons=true&theme=default&hide_border=true&rank_icon=github" media="(prefers-color-scheme: light)" />
+    <img src="https://github-readme-stats.vercel.app/api?username=francescopaolopassaro&show_icons=true&theme=tokyonight&hide_border=true&rank_icon=github" alt="Francesco's GitHub Stats" height="180" />
+  </picture>
+  <picture>
+    <source srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=francescopaolopassaro&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" media="(prefers-color-scheme: dark)" />
+    <source srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=francescopaolopassaro&layout=compact&theme=default&hide_border=true&langs_count=8" media="(prefers-color-scheme: light)" />
+    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=francescopaolopassaro&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" alt="Top Languages" height="180" />
+  </picture>
+</div>
+
+<div align="center">
+  <picture>
+    <source srcset="https://streak-stats.demolab.com?user=francescopaolopassaro&theme=tokyonight&hide_border=true" media="(prefers-color-scheme: dark)" />
+    <source srcset="https://streak-stats.demolab.com?user=francescopaolopassaro&theme=default&hide_border=true" media="(prefers-color-scheme: light)" />
+    <img src="https://streak-stats.demolab.com?user=francescopaolopassaro&theme=tokyonight&hide_border=true" alt="GitHub Streak" height="180" />
+  </picture>
+</div>
+-->
 
 ---
 
