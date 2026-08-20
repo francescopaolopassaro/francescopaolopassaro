@@ -1,0 +1,25 @@
+   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="100%">
+     <defs>
+       <style>
+         .bg { fill: #6C5EB5; }
+         .screen { fill: #352879; }
+         .text { fill: #A8BCE4; font-family: 'Courier New', Courier, monospace; font-size: 20px; font-weight: bold; }
+         .highlight { fill: #FFFFFF; font-family: 'Courier New', Courier, monospace; font-size: 20px; font-weight: bold; }
+         .cursor { fill: #A8BCE4; }
+       </style>
+     </defs>
+     <rect class="bg" width="800" height="500" />
+     <rect class="screen" x="40" y="40" width="720" height="420" />
+     <text class="text" x="60" y="80">**** COMMODORE 64 BASIC V2 ****</text>
+     <text class="text" x="60" y="110">64K RAM SYSTEM  38911 BASIC BYTES FREE</text>
+     <text class="text" x="60" y="160">READY.</text>
+     <text class="highlight" x="60" y="200">LOAD "F.PASSARO",8,1</text>
+     <text class="text" x="60" y="230">SEARCHING FOR F.PASSARO</text>
+     <text class="text" x="60" y="260">LOADING...</text>
+     <text class="text" x="60" y="310">READY.</text>
+     <text class="highlight" x="60" y="350">RUN</text>
+     <text class="highlight" x="60" y="400">SOLUTION ARCHITECT | AI SYSTEMS ENGINEER</text>
+     <rect class="cursor" x="580" y="380" width="14" height="20">
+       <animate attributeName="opacity" values="0;1;0" dur="1s" repeatCount="indefinite" />
+     </rect>
+   </svg>
