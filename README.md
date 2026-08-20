@@ -1,42 +1,45 @@
 <div align="center">
 
-# Francesco Paolo Passaro
+<!-- 🚀 ANIMAZIONE COMMODORE 64 🚀 -->
+<!-- Nota: Se l'animazione non viene visualizzata a causa del proxy di GitHub, salva il codice SVG (in fondo) come 'c64.svg' nella root del tuo repo e usa: ![C64 Intro](./c64.svg) -->
+<img src="data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20800%20500%22%20width%3D%22100%25%22%3E%0A%20%20%3Cdefs%3E%0A%20%20%20%20%3Cstyle%3E%0A%20%20%20%20%20%20.bg%20%7B%20fill%3A%20%236C5EB5%3B%20%7D%0A%20%20%20%20%20%20.screen%20%7B%20fill%3A%20%23352879%3B%20%7D%0A%20%20%20%20%20%20.text%20%7B%20fill%3A%20%23A8BCE4%3B%20font-family%3A%20%27Courier%20New%27%2C%20Courier%2C%20monospace%3B%20font-size%3A%2020px%3B%20font-weight%3A%20bold%3B%20%7D%0A%20%20%20%20%20%20.highlight%20%7B%20fill%3A%20%23FFFFFF%3B%20font-family%3A%20%27Courier%20New%27%2C%20Courier%2C%20monospace%3B%20font-size%3A%2020px%3B%20font-weight%3A%20bold%3B%20%7D%0A%20%20%20%20%20%20.cursor%20%7B%20fill%3A%20%23A8BCE4%3B%20%7D%0A%20%20%20%20%3C/style%3E%0A%20%20%3C/defs%3E%0A%20%20%3Crect%20class%3D%22bg%22%20width%3D%22800%22%20height%3D%22500%22%20/%3E%0A%20%20%3Crect%20class%3D%22screen%22%20x%3D%2240%22%20y%3D%2240%22%20width%3D%22720%22%20height%3D%22420%22%20/%3E%0A%20%20%3Ctext%20class%3D%22text%22%20x%3D%2260%22%20y%3D%2280%22%3E****%20COMMODORE%2064%20BASIC%20V2%20****%3C/text%3E%0A%20%20%3Ctext%20class%3D%22text%22%20x%3D%2260%22%20y%3D%22110%22%3E64K%20RAM%20SYSTEM%20%2038911%20BASIC%20BYTES%20FREE%3C/text%3E%0A%20%20%3Ctext%20class%3D%22text%22%20x%3D%2260%22%20y%3D%22160%22%3EREADY.%3C/text%3E%0A%20%20%3Ctext%20class%3D%22highlight%22%20x%3D%2260%22%20y%3D%22200%22%3ELOAD%20%22F.PASSARO%22%2C8%2C1%3C/text%3E%0A%20%20%3Ctext%20class%3D%22text%22%20x%3D%2260%22%20y%3D%22230%22%3ESEARCHING%20FOR%20F.PASSARO%3C/text%3E%0A%20%20%3Ctext%20class%3D%22text%22%20x%3D%2260%22%20y%3D%22260%22%3ELOADING...%3C/text%3E%0A%20%20%3Ctext%20class%3D%22text%22%20x%3D%2260%22%20y%3D%22310%22%3EREADY.%3C/text%3E%0A%20%20%3Ctext%20class%3D%22highlight%22%20x%3D%2260%22%20y%3D%22350%22%3ERUN%3C/text%3E%0A%20%20%3Ctext%20class%3D%22highlight%22%20x%3D%2260%22%20y%3D%22400%22%3ESOLUTION%20ARCHITECT%20%7C%20AI%20SYSTEMS%20ENGINEER%3C/text%3E%0A%20%20%3Crect%20class%3D%22cursor%22%20x%3D%22580%22%20y%3D%22380%22%20width%3D%2214%22%20height%3D%2220%22%3E%0A%20%20%20%20%3Canimate%20attributeName%3D%22opacity%22%20values%3D%220%3B1%3B0%22%20dur%3D%221s%22%20repeatCount%3D%22indefinite%22%20/%3E%0A%20%20%3C/rect%3E%0A%3C/svg%3E" alt="Commodore 64 Intro" width="100%" />
 
-**Solution Architect | Team Leader | AI Systems Engineer**
+<br/>
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/francesco-paolo-passaro)
 [![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/francescopaolopassaro)
 
 </div>
 
----
+<br/>
 
-## About Me
+## ▌ SYSTEM DIAGNOSTICS & ABOUT ME
 
-### 🏗️ Architecting Excellence for 20+ Years
+> **🏗️ ARCHITECTING EXCELLENCE [20+ YEARS]**  
+> Specializing in designing and delivering mission-critical software ecosystems for high-stakes sectors: Defense, Intelligence, Public Administration, and Healthcare. My architectural vision has been forged in the high-stakes world of mission-critical Defense systems.
 
-With over 20 years of experience, I specialize in designing and delivering mission-critical software ecosystems for high-stakes sectors, including Defense, Intelligence, Public Administration, and Healthcare. My architectural vision has been forged in the high-stakes world of mission-critical Defense systems.
+> **🛡️ SECURE-BY-DESIGN PHILOSOPHY**  
+> Today, I apply those same national and international security frameworks to secure-by-design AI, IoT, and enterprise integrations 🚀.
 
-🛡️ Today, I apply those same national and international security frameworks to secure-by-design AI, IoT, and enterprise integrations 🚀.
+> **💻 HANDS-ON LEADERSHIP**  
+> *"I don't just design; I build."* My career is defined by a unique blend of high-level architectural vision and a persistent, hands-on passion for development.
 
-### 💻 Hands-on Leadership
+> **🌍 GLOBAL IMPACT & TECH ADVOCACY**  
+> Led large-scale digital transformations across national and international borders, ensuring complexity never compromises security or performance. As a tech advocate and news curator 📰, I bridge the gap between emerging trends and robust implementations.
 
-My career is defined by a unique blend of high-level architectural vision and a persistent, hands-on passion for development. I don't just design; I build.
+> **🌋 PERSONAL LOG**  
+> **Origin:** Castellammare di Stabia, Italy 🇮🇹  
+> **Nodes Lived:** San Biagio di Callalta (TV), Milan, Leicester (UK), Nottingham (UK)  
+> **Current Base:** Rome, Italy 📍  
+> **Side Quests:** Environmentalist, animal lover, and operator of a shelter for dogs and cats in need. 🐾
 
-### 🌍 Global Impact & Tech Advocacy
+<br/>
 
-I have led large-scale digital transformations across national and international borders, ensuring that complexity never compromises security or performance. As a tech advocate and news curator 📰, I bridge the gap between emerging trends — like AI and IoT — and robust, secure-by-design implementations.
+┌─────────────────────────────────────────────────────────────────┐
+│  TECHNICAL SKILLS & ECOSYSTEMS                                  │
+└─────────────────────────────────────────────────────────────────┘
 
-### 🌋 Outside of Work
-
-I was born in Castellammare di Stabia, Italy. I have lived in various Italian cities — San Biagio di Callalta (TV) and Milan — and in Great Britain, in Leicester and Nottingham. I currently live in Rome. I am an environmentalist, I love animals, and I run a shelter for dogs and cats in need.
-
----
-
-## Technical Skills & Ecosystems
-
-🌐 **Architectures**: SOA, Microservices, REST API, CQRS, Cloud-native, Event-Driven, Secure-by-Design, RabbitMQ/Kafka
-
+🌐 **Architectures**: SOA, Microservices, REST API, CQRS, Cloud-native, Event-Driven, Secure-by-Design, RabbitMQ/Kafka  
 ![SOA](https://img.shields.io/badge/SOA-1C3C3C?style=flat-square)
 ![Microservices](https://img.shields.io/badge/Microservices-1C3C3C?style=flat-square)
 ![REST API](https://img.shields.io/badge/REST_API-1C3C3C?style=flat-square)
@@ -45,53 +48,46 @@ I was born in Castellammare di Stabia, Italy. I have lived in various Italian ci
 ![Kafka](https://img.shields.io/badge/Kafka-231F20?style=flat-square&logo=apachekafka&logoColor=white)
 ![RabbitMQ](https://img.shields.io/badge/RabbitMQ-FF6600?style=flat-square&logo=rabbitmq&logoColor=white)
 
-🛠️ **Microsoft Stack**: .NET from 1.0 to 8/9/10/11, C#, .NET Core, Blazor, Hybrid Blazor, ASP.NET MVC, .NET Aspire
-
+🛠️ **Microsoft Stack**: .NET from 1.0 to 8/9/10/11, C#, .NET Core, Blazor, Hybrid Blazor, ASP.NET MVC, .NET Aspire  
 ![C#](https://img.shields.io/badge/C%23-239120?style=flat-square&logo=csharp&logoColor=white)
 ![.NET](https://img.shields.io/badge/.NET_8%2F9-512BD4?style=flat-square&logo=dotnet&logoColor=white)
 ![Blazor](https://img.shields.io/badge/Blazor-512BD4?style=flat-square&logo=blazor&logoColor=white)
 ![ASP.NET MVC](https://img.shields.io/badge/ASP.NET_MVC-512BD4?style=flat-square&logo=dotnet&logoColor=white)
 ![.NET Aspire](https://img.shields.io/badge/.NET_Aspire-512BD4?style=flat-square&logo=dotnet&logoColor=white)
 
-☁️ **Integration & Cloud**: MuleSoft Anypoint, Salesforce, Azure, AWS, RabbitMQ, Kafka
-
+☁️ **Integration & Cloud**: MuleSoft Anypoint, Salesforce, Azure, AWS, RabbitMQ, Kafka  
 ![MuleSoft](https://img.shields.io/badge/MuleSoft_Anypoint-00A0DF?style=flat-square&logo=mulesoft&logoColor=white)
 ![Salesforce](https://img.shields.io/badge/Salesforce-00A1E0?style=flat-square&logo=salesforce&logoColor=white)
 ![Azure](https://img.shields.io/badge/Azure-0078D4?style=flat-square&logo=microsoftazure&logoColor=white)
 ![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazonaws&logoColor=white)
 
-🤖 **AI & Next-Gen Tech**: Ollama, LLM, RAG, Semantic Kernel, AI Orchestration
-
+🤖 **AI & Next-Gen Tech**: Ollama, LLM, RAG, Semantic Kernel, AI Orchestration  
 ![Ollama](https://img.shields.io/badge/Ollama-000000?style=flat-square)
 ![LLM](https://img.shields.io/badge/LLM-1C3C3C?style=flat-square)
 ![RAG](https://img.shields.io/badge/RAG-1C3C3C?style=flat-square)
 ![Semantic Kernel](https://img.shields.io/badge/Semantic_Kernel-512BD4?style=flat-square)
 ![AI Orchestration](https://img.shields.io/badge/AI_Orchestration-1C3C3C?style=flat-square)
 
-🔐 **Security**: Cybersecurity Design, Microsoft Identity, Defense Intelligence Strategy, Network Security
-
+🔐 **Security**: Cybersecurity Design, Microsoft Identity, Defense Intelligence Strategy, Network Security  
 ![Cybersecurity](https://img.shields.io/badge/Cybersecurity_Design-000000?style=flat-square)
 ![Microsoft Entra ID](https://img.shields.io/badge/Microsoft_Identity-0078D4?style=flat-square&logo=microsoftazure&logoColor=white)
 ![Network Security](https://img.shields.io/badge/Network_Security-000000?style=flat-square)
 
-📊 **Data**: SQL Server, PostgreSQL, CockroachDB, MongoDB, Oracle
-
+📊 **Data**: SQL Server, PostgreSQL, CockroachDB, MongoDB, Oracle  
 ![SQL Server](https://img.shields.io/badge/SQL_Server-CC2927?style=flat-square&logo=microsoftsqlserver&logoColor=white)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-336791?style=flat-square&logo=postgresql&logoColor=white)
 ![CockroachDB](https://img.shields.io/badge/CockroachDB-6933FF?style=flat-square&logo=cockroachlabs&logoColor=white)
 ![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white)
 ![Oracle](https://img.shields.io/badge/Oracle-F80000?style=flat-square&logo=oracle&logoColor=white)
 
-🔌 **Electronics & Embedded Systems**: electronic circuit design, ANSI C/C++ firmware development, Linux ARM, real-time circuits. Patent holder and author of several international projects for particulate-matter sampling systems
-
+🔌 **Electronics & Embedded Systems**: electronic circuit design, ANSI C/C++ firmware development, Linux ARM, real-time circuits. Patent holder and author of several international projects for particulate-matter sampling systems  
 ![Embedded C](https://img.shields.io/badge/ANSI_C-00599C?style=flat-square&logo=c&logoColor=white)
 ![C++](https://img.shields.io/badge/C%2B%2B-00599C?style=flat-square&logo=cplusplus&logoColor=white)
 ![Linux ARM](https://img.shields.io/badge/Linux_ARM-FCC624?style=flat-square&logo=linux&logoColor=black)
 ![Real-Time Systems](https://img.shields.io/badge/Real--Time_Systems-000000?style=flat-square)
 ![Patent](https://img.shields.io/badge/Patent_Holder-B8860B?style=flat-square)
 
-⚙️ **DevOps & Infra**: Docker, Kubernetes, Azure DevOps, Jenkins, VMware ESXi, Proxmox
-
+⚙️ **DevOps & Infra**: Docker, Kubernetes, Azure DevOps, Jenkins, VMware ESXi, Proxmox  
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
 ![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white)
 ![Azure DevOps](https://img.shields.io/badge/Azure_DevOps-0078D7?style=flat-square&logo=azuredevops&logoColor=white)
@@ -99,16 +95,17 @@ I was born in Castellammare di Stabia, Italy. I have lived in various Italian ci
 ![VMware ESXi](https://img.shields.io/badge/VMware_ESXi-607078?style=flat-square&logo=vmware&logoColor=white)
 ![Proxmox](https://img.shields.io/badge/Proxmox-E57000?style=flat-square&logo=proxmox&logoColor=white)
 
-👥 **Leadership**: PMP, Stakeholder Management, Team Coordination, Risk & Change Management
-
+👥 **Leadership**: PMP, Stakeholder Management, Team Coordination, Risk & Change Management  
 ![PMP](https://img.shields.io/badge/PMP®-3D8F3D?style=flat-square)
 ![Stakeholder Management](https://img.shields.io/badge/Stakeholder_Management-000000?style=flat-square)
 ![Team Coordination](https://img.shields.io/badge/Team_Coordination-000000?style=flat-square)
 ![Risk & Change Management](https://img.shields.io/badge/Risk_%26_Change_Management-000000?style=flat-square)
 
----
+<br/>
 
-## Innovation Projects — Artificial Intelligence
+┌─────────────────────────────────────────────────────────────────┐
+│  INNOVATION PROJECTS — ARTIFICIAL INTELLIGENCE                  │
+└─────────────────────────────────────────────────────────────────┘
 
 Creator and developer of proprietary AI solutions for automation and data protection.
 
@@ -121,36 +118,40 @@ Creator and developer of proprietary AI solutions for automation and data protec
 | [**Caveman.SemanticKernel**](https://github.com/francescopaolopassaro/Caveman.SemanticKernel) | Integration package for Caveman with Semantic Kernel |
 | [**Caveman.PrivacyGuard**](https://github.com/francescopaolopassaro/Caveman.PrivacyGuard) | Privacy-first AI that runs entirely on-device — combining on-device inference, encrypted storage and configurable access controls so users keep full ownership of their data (GDPR / AI Act) |
 
----
+<br/>
 
-## Blazor Components (Free for Dev)
+┌─────────────────────────────────────────────────────────────────┐
+│  BLAZOR COMPONENTS (FREE FOR DEV)                               │
+└─────────────────────────────────────────────────────────────────┘
 
 | Project | Description | Tech |
 |---------|-------------|------|
 | [**Stilo**](https://github.com/francescopaolopassaro/Stilo) | WYSIWYG HTML editor library for Blazor applications, compatible with MudBlazor | ![Blazor](https://img.shields.io/badge/-Blazor-512BD4?style=flat-square&logo=blazor&logoColor=white) |
 
----
+<br/>
 
-## UI/UX - Accessibility
+┌─────────────────────────────────────────────────────────────────┐
+│  UI/UX - ACCESSIBILITY                                          │
+└─────────────────────────────────────────────────────────────────┘
 
 | Project | Description | Tech |
 |---------|-------------|------|
 | [**FlowAble**](https://github.com/francescopaolopassaro/FlowAble) | Modern JavaScript library built to bridge the gap between complex web interfaces and digital accessibility (a11y). Zero-dependency, standalone accessibility toolbar with 25+ features, all processing client-side, supporting 35 languages | ![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black) |
 
----
+<br/>
 
-## Open Source Projects
+┌─────────────────────────────────────────────────────────────────┐
+│  OPEN SOURCE PROJECTS                                           │
+└─────────────────────────────────────────────────────────────────┘
 
-### Blazor & .NET
-
+### 💻 Blazor & .NET
 | Project | Description | Tech |
 |---------|-------------|------|
 | [**Pkl.Net**](https://github.com/francescopaolopassaro/Pkl.Net) | Type-safe configuration library bringing Apple's Pkl language to .NET | ![C#](https://img.shields.io/badge/-C%23-239120?style=flat-square&logo=csharp&logoColor=white) |
 | [**netguard**](https://github.com/francescopaolopassaro/netguard) | Desktop security monitor built with .NET 9 MAUI for Windows/Linux | ![.NET](https://img.shields.io/badge/-.NET_9-512BD4?style=flat-square&logo=dotnet&logoColor=white) |
 | [**SimpleWPFReporting**](https://github.com/francescopaolopassaro/SimpleWPFReporting) | WPF reporting solution | ![C#](https://img.shields.io/badge/-C%23-239120?style=flat-square&logo=csharp&logoColor=white) |
 
-### Templates & Boilerplate
-
+### 📦 Templates & Boilerplate
 | Project | Description | Tech |
 |---------|-------------|------|
 | [**MySqlMVCIdentityTemplate**](https://github.com/francescopaolopassaro/MySqlMVCIdentityTemplate) | ASP.NET MVC 5.0 template with MySQL, Identity and dependency injection | ![C#](https://img.shields.io/badge/-C%23-239120?style=flat-square&logo=csharp&logoColor=white) ![MySQL](https://img.shields.io/badge/-MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white) |
@@ -158,56 +159,26 @@ Creator and developer of proprietary AI solutions for automation and data protec
 | [**MySQLNetCore22Template**](https://github.com/francescopaolopassaro/MySQLNetCore22Template) | .NET Core 2.2 template with MySQL, Identity and migrations | ![.NET](https://img.shields.io/badge/-.NET_Core-512BD4?style=flat-square&logo=dotnet&logoColor=white) ![MySQL](https://img.shields.io/badge/-MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white) |
 | [**oracle**](https://github.com/francescopaolopassaro/oracle) | Oracle database helper with queries and stored procedures | ![PL/SQL](https://img.shields.io/badge/-PL%2FSQL-F80000?style=flat-square&logo=oracle&logoColor=white) |
 
-### Developer Tools
-
+### 🛠️ Developer Tools
 | Project | Description | Tech |
 |---------|-------------|------|
 | [**DevPower-Shell-Utils**](https://github.com/francescopaolopassaro/DevPower-Shell-Utils) | Scripts automating repetitive developer tasks | ![PowerShell](https://img.shields.io/badge/-PowerShell-5391FE?style=flat-square&logo=powershell&logoColor=white) |
 | [**ollama-docker-collections**](https://github.com/francescopaolopassaro/ollama-docker-collections) | Docker Compose configs for running LLMs locally | ![Docker](https://img.shields.io/badge/-Docker-2496ED?style=flat-square&logo=docker&logoColor=white) ![Ollama](https://img.shields.io/badge/-Ollama-000000?style=flat-square) |
 
----
-
-<!--
-## GitHub Stats
-(disabled: public github-readme-stats/streak-stats instances are returning 503 — rate-limited.
-Steps to fix are in TODO-github-stats.md. Once a personal Vercel deploy is ready,
-replace github-readme-stats.vercel.app / streak-stats.demolab.com below with the new domain
-and uncomment this block.)
-
-<div align="center">
-  <picture>
-    <source srcset="https://github-readme-stats.vercel.app/api?username=francescopaolopassaro&show_icons=true&theme=tokyonight&hide_border=true&rank_icon=github" media="(prefers-color-scheme: dark)" />
-    <source srcset="https://github-readme-stats.vercel.app/api?username=francescopaolopassaro&show_icons=true&theme=default&hide_border=true&rank_icon=github" media="(prefers-color-scheme: light)" />
-    <img src="https://github-readme-stats.vercel.app/api?username=francescopaolopassaro&show_icons=true&theme=tokyonight&hide_border=true&rank_icon=github" alt="Francesco's GitHub Stats" height="180" />
-  </picture>
-  <picture>
-    <source srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=francescopaolopassaro&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" media="(prefers-color-scheme: dark)" />
-    <source srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=francescopaolopassaro&layout=compact&theme=default&hide_border=true&langs_count=8" media="(prefers-color-scheme: light)" />
-    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=francescopaolopassaro&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" alt="Top Languages" height="180" />
-  </picture>
-</div>
-
-<div align="center">
-  <picture>
-    <source srcset="https://streak-stats.demolab.com?user=francescopaolopassaro&theme=tokyonight&hide_border=true" media="(prefers-color-scheme: dark)" />
-    <source srcset="https://streak-stats.demolab.com?user=francescopaolopassaro&theme=default&hide_border=true" media="(prefers-color-scheme: light)" />
-    <img src="https://streak-stats.demolab.com?user=francescopaolopassaro&theme=tokyonight&hide_border=true" alt="GitHub Streak" height="180" />
-  </picture>
-</div>
--->
-
----
+<br/>
 
 <div align="center">
 
-### Let's Connect
+### ▌ ESTABLISH CONNECTION
 
+`C:\USERS\FRANCESCO> connect --platform linkedin`  
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/francesco-paolo-passaro)
+
+`C:\USERS\FRANCESCO> connect --platform github`  
 [![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/francescopaolopassaro)
 
 <br />
 
-![Profile Views](https://komarev.com/ghpvc/?username=francescopaolopassaro&color=1a1b27&style=flat-square&label=Profile+Views)
+![Profile Views](https://komarev.com/ghpvc/?username=francescopaolopassaro&color=352879&style=flat-square&label=PROFILE_VIEWS)
 
 </div>
-</content>
