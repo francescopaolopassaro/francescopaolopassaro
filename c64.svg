@@ -1,61 +1,84 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="100%">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 700" width="100%" height="700">
+  <rect width="800" height="700" fill="#4040e0" rx="4"/>
+
   <defs>
-    <style>
-      .bg { fill: #6C5EB5; }
-      .screen { fill: #352879; }
-      .text { fill: #A8BCE4; font-family: 'Courier New', Courier, monospace; font-size: 18px; font-weight: bold; }
-      .highlight { fill: #FFFFFF; font-family: 'Courier New', Courier, monospace; font-size: 20px; font-weight: bold; }
-      .cursor { fill: #A8BCE4; }
-      .ok { fill: #55FF55; font-family: 'Courier New', Courier, monospace; font-size: 18px; font-weight: bold; }
-    </style>
+    <pattern id="sl" width="800" height="3" patternUnits="userSpaceOnUse">
+      <rect width="800" height="1.5" fill="rgba(0,0,0,0.04)"/>
+    </pattern>
+    <radialGradient id="vg" cx="50%" cy="50%" r="65%">
+      <stop offset="0%" stop-color="transparent"/>
+      <stop offset="100%" stop-color="rgba(0,0,0,0.3)"/>
+    </radialGradient>
+    <filter id="gl">
+      <feGaussianBlur stdDeviation="0.6" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
   </defs>
-  
-  <!-- Sfondo e Schermo C64 -->
-  <rect class="bg" width="800" height="500" />
-  <rect class="screen" x="40" y="40" width="720" height="420" />
 
-  <!-- Testo di Boot Statico -->
-  <text class="text" x="60" y="70">**** COMMODORE 64 BASIC V2 ****</text>
-  <text class="text" x="60" y="100">64K RAM SYSTEM  38911 BASIC BYTES FREE</text>
+  <rect width="800" height="700" fill="url(#sl)" rx="4" pointer-events="none"/>
+  <rect width="800" height="700" fill="url(#vg)" rx="4" pointer-events="none"/>
 
-  <!-- Sequenza di Digitazione (Typewriter Effect) -->
-  <g class="text">
-    <text x="60" y="150" opacity="0">READY.<animate attributeName="opacity" values="0;1" begin="0.5s" dur="0.05s" fill="freeze"/></text>
-    
-    <text x="60" y="190" opacity="0">LOAD "F.PASSARO",8,1<animate attributeName="opacity" values="0;1" begin="1.2s" dur="0.05s" fill="freeze"/></text>
-    
-    <text x="60" y="220" opacity="0">SEARCHING FOR F.PASSARO<animate attributeName="opacity" values="0;1" begin="2.0s" dur="0.05s" fill="freeze"/></text>
-    
-    <text x="60" y="250" opacity="0">LOADING...<animate attributeName="opacity" values="0;1" begin="3.0s" dur="0.05s" fill="freeze"/></text>
-    
-    <!-- Animazione puntini di caricamento -->
-    <text x="145" y="250" opacity="0">
-      .<animate attributeName="opacity" values="0;1;0;1;0;1;0;1" begin="3.2s" dur="0.3s" fill="freeze"/>
-    </text>
+  <style>
+    @keyframes show{to{opacity:1}}
+    @keyframes blink{0%,40%{opacity:1}50%,90%{opacity:0}100%{opacity:1}}
+    @keyframes cFade{0%{opacity:0}5%{opacity:1}20%{opacity:0}35%{opacity:1}50%{opacity:0}65%{opacity:1}80%{opacity:0}100%{opacity:0}}
+    .b{font-family:'Courier New',monospace;fill:#b0b0ff;font-size:16px;opacity:0;animation:show .12s ease-out forwards;filter:url(#gl)}
+    .a{font-family:'Courier New',monospace;fill:#b0b0ff;font-size:11px;opacity:0;animation:show .06s ease-out forwards;filter:url(#gl)}
+    .c1{font-family:'Courier New',monospace;fill:#b0b0ff;font-size:16px;opacity:0;animation:cFade 1.5s 3.8s forwards;filter:url(#gl)}
+    .c2{font-family:'Courier New',monospace;fill:#b0b0ff;font-size:16px;opacity:0;animation:show .12s 9.2s ease-out forwards,blink .5s 9.7s infinite;filter:url(#gl)}
+  </style>
 
-    <text x="60" y="300" opacity="0">READY.<animate attributeName="opacity" values="0;1" begin="4.5s" dur="0.05s" fill="freeze"/></text>
-    
-    <text x="60" y="340" opacity="0">RUN<animate attributeName="opacity" values="0;1" begin="5.2s" dur="0.05s" fill="freeze"/></text>
-  </g>
+  <!-- BOOT -->
+  <text class="b" x="30" y="32" style="animation-delay:.8s">**** COMMODORE 64 BASIC V2 ****</text>
+  <text class="b" x="30" y="58" style="animation-delay:2s">64K RAM SYSTEM  38911 BASIC BYTES FREE</text>
+  <text class="b" x="30" y="86" style="animation-delay:3s">READY.</text>
+  <text class="b" x="30" y="112" style="animation-delay:3.5s">LOAD "F.PASSARO",8,1</text>
+  <text class="c1" x="241" y="112">█</text>
 
-  <!-- Titolo Principale a comparsa progressiva (Typewriter) -->
-  <g class="highlight">
-    <text x="60" y="390" opacity="0">> SOLUTION ARCHITECT<animate attributeName="opacity" values="0;1" begin="6.0s" dur="0.05s" fill="freeze"/></text>
-    <text x="60" y="390" opacity="0">> SOLUTION ARCHITECT | TEAM LEADER<animate attributeName="opacity" values="0;1" begin="6.6s" dur="0.05s" fill="freeze"/></text>
-    <text x="60" y="390" opacity="0">> SOLUTION ARCHITECT | TEAM LEADER | AI SYSTEMS ENGINEER<animate attributeName="opacity" values="0;1" begin="7.2s" dur="0.05s" fill="freeze"/></text>
-  </g>
+  <!-- ASCII ART - 39 righe complete -->
+  <text class="a" x="20" y="146" style="animation-delay:5s" xml:space="preserve">------::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::</text>
+  <text class="a" x="20" y="159.5" style="animation-delay:5.1s" xml:space="preserve">**+=--::::::::::::::::::::::::::::::-=+*%%%%%#=-::::::::::::::::::::::::::::::::</text>
+  <text class="a" x="20" y="173" style="animation-delay:5.2s" xml:space="preserve">+*+=-:::::::::::::::::::::::-====+#%%%%%%%@@%%%%%%*:::::::::::::::::::::::::::..</text>
+  <text class="a" x="20" y="186.5" style="animation-delay:5.3s" xml:space="preserve">+++-::::::::::::::::::::::::-==*%%%%%%%%%%%%%@@%%%%%#+====--:::::::::::::::::...</text>
+  <text class="a" x="20" y="200" style="animation-delay:5.4s" xml:space="preserve">=++-:::::::::::::::::::::::. :#%%****#%%%%%%%%%@@%%@%%*=++=-:::::::::::::::::...</text>
+  <text class="a" x="20" y="213.5" style="animation-delay:5.5s" xml:space="preserve">=++-::.::::::::::::::::::::. =#=-------=++===++*####%@%+===-::::::::::::::::....</text>
+  <text class="a" x="20" y="227" style="animation-delay:5.6s" xml:space="preserve">=++-:...:::::::::::::::::::.+#---:::::::::----==+++++#%%-==-:..:::::::::::::....</text>
+  <text class="a" x="20" y="240.5" style="animation-delay:5.7s" xml:space="preserve">=++-:...::::::::::::::::::::#=--:::::::::::---=====+++%%*=-::...::::::::::::....</text>
+  <text class="a" x="20" y="254" style="animation-delay:5.8s" xml:space="preserve">=+=-:...:::::::::::::::::::**---::::::::::::--=======+#%#=-:....:::::::::::.....</text>
+  <text class="a" x="20" y="267.5" style="animation-delay:5.9s" xml:space="preserve">-+=-:...:::::::::::::::::::*#=:::::::::::::--==++++=-+#%#=-:....:::::::::::.... </text>
+  <text class="a" x="20" y="281" style="animation-delay:6.0s" xml:space="preserve">-+=-:...:::::::::::::::::::-#=:+**###*+-:-+#%*+=++*+==*%#=-:....:::::::::::.... </text>
+  <text class="a" x="20" y="294.5" style="animation-delay:6.1s" xml:space="preserve">-+=-:...::::::::::::::::::..*--=-=+*#*+-:-****#%*#*+==+#+=-:....:::::::::::.... </text>
+  <text class="a" x="20" y="308" style="animation-delay:6.2s" xml:space="preserve">-+=-:...::::::::::::::::....+::=++++==--:-++===++++===-#**=:....:::::::::::...  </text>
+  <text class="a" x="20" y="321.5" style="animation-delay:6.3s" xml:space="preserve">-==-:....::::::::::::::....=+::::---:::::-=+=------==--#*+=:....::::::::::....  </text>
+  <text class="a" x="20" y="335" style="animation-delay:6.4s" xml:space="preserve">-==-:....:::::::::::::.....:-:::::::::::::==+=-----====*#=-:.....:::::::::....  </text>
+  <text class="a" x="20" y="348.5" style="animation-delay:6.5s" xml:space="preserve">-==-:....:::::::::::::......:-::::::::=#+*##*+----=====*=--:.....:::::::::....  </text>
+  <text class="a" x="20" y="362" style="animation-delay:6.6s" xml:space="preserve">-==-:....::::::::::::........:---::::-=++***#*+====+++=-:--:. ...:::::::::....  </text>
+  <text class="a" x="20" y="375.5" style="animation-delay:6.7s" xml:space="preserve">-==-:. ..::::::::::::.......  :---:=+++++++*****+=++++:::--:. ...:::::::::....  </text>
+  <text class="a" x="20" y="389" style="animation-delay:6.8s" xml:space="preserve">-==--::--::::::::::.........   -----=--=+****+++++*++=.::--:.  ..:::::::::...   </text>
+  <text class="a" x="20" y="402.5" style="animation-delay:6.9s" xml:space="preserve">-==+*####+-:::::::..........    :===+-----===++*****+-:::--:.  ..:::::::::...   </text>
+  <text class="a" x="20" y="416" style="animation-delay:7.0s" xml:space="preserve">---=+++***=:::::::..........     :+***+===++*#####**+=:*---:.  ..:::::::::...   </text>
+  <text class="a" x="20" y="429.5" style="animation-delay:7.1s" xml:space="preserve">--=+**+==++-:::::...........     .-=*#######%%##*#*+:::#%+-:.  ..:::::::::...   </text>
+  <text class="a" x="20" y="443" style="animation-delay:7.2s" xml:space="preserve">---=+*+==++-:::::...........     ::-==+********#+=-:::+%%%%+.  ..:::::::::...   </text>
+  <text class="a" x="20" y="456.5" style="animation-delay:7.3s" xml:space="preserve">---+*++==**=::::............ ..-#=..-==++++*+=:::::::=%%%%%%%#=-::::::::::...   </text>
+  <text class="a" x="20" y="470" style="animation-delay:7.4s" xml:space="preserve">:-=+++==+*#+-:::.........:=*##*##:.  .:-==:......:::-#%%%%%%%%%%%#*+-::::....   </text>
+  <text class="a" x="20" y="483.5" style="animation-delay:7.5s" xml:space="preserve">+#*=+++++=+##+=-::..:-+#%########...----==:.......::*%%%%%%%%%%%%%%%%##+-:...   </text>
+  <text class="a" x="20" y="497" style="animation-delay:7.6s" xml:space="preserve">@%*==++===+%%@%%#*##%%%%%%%%###%:.:=---::=+=:......+%%%%%%%%%%%%%%%%%%%%####+-  </text>
+  <text class="a" x="20" y="510.5" style="animation-delay:7.7s" xml:space="preserve">@%#====--=*%%%%%%%%%%%%%%%%%##%*.....-::=+=:.....:-#%%%%%%%%%%%%%%%%%%%%%%%%####</text>
+  <text class="a" x="20" y="524" style="animation-delay:7.8s" xml:space="preserve">@@#+-----=##%%%%%%%%%%%%%%%##%%-.....:-=+-:......-#%%%%%%%%%#%%%%%######%%%%%%%#</text>
+  <text class="a" x="20" y="537.5" style="animation-delay:7.9s" xml:space="preserve">@@#=-----=*#%%%%%%%%%%%%%%%##%%:.....-:=+=......=##%%%%%%%%%%%%%##########%%%%%%</text>
+  <text class="a" x="20" y="551" style="animation-delay:8.0s" xml:space="preserve">@@#=-----=*#%#####%%%%%%%%##%%#:.....-:-+=:....*##%%%%%%%%%%%%%##########%%%%%%#</text>
+  <text class="a" x="20" y="564.5" style="animation-delay:8.1s" xml:space="preserve">@@%+-----=*#%######%%%%%%%##%%*. ..:=-::-=...:*##%%%%%#%#%%%%#########%%%%%%%%%%</text>
+  <text class="a" x="20" y="578" style="animation-delay:8.2s" xml:space="preserve">#**+=====+##%#######%%%%%##%@%*...:--:::-=..-#%##%%%###%%%%%#########%%%%%%%%%%%</text>
+  <text class="a" x="20" y="591.5" style="animation-delay:8.3s" xml:space="preserve">+==++++==*#%%#######%#%%%##%%%*...:-::::-=.*####%%%#####%%%####%%%##%%%%#%%%%%%%</text>
+  <text class="a" x="20" y="605" style="animation-delay:8.4s" xml:space="preserve">##***++++##%%#######%#%%%#%@%%*..:::::::-=*#%###%%######%%####%%%%%#%%%%%%%%%%%%</text>
+  <text class="a" x="20" y="618.5" style="animation-delay:8.5s" xml:space="preserve">@@%*+===*##%%#########%%##%%%%#:::::::::+##%###%%#####%%###%%%%%%%%%%%@%%%%%%%%%</text>
+  <text class="a" x="20" y="632" style="animation-delay:8.6s" xml:space="preserve">@@#*===+##%%########%%%###%%%##=:::::::+######%%%####%%%%%#%%%%%%%%%%@%%%%%%%%%%</text>
+  <text class="a" x="20" y="645.5" style="animation-delay:8.7s" xml:space="preserve">@@@@%@#####%%########%%###%%####::::::*%#####%%%####%%%%%%%%%%%%%%%%@@%%%%%%%%%%</text>
+  <text class="a" x="20" y="659" style="animation-delay:8.8s" xml:space="preserve">@@@@@@###%%%%############%%%####=:::-#%%#####%#####%%#%%%%%%%%%%%%%%@@%%%%%%%%%%</text>
+  <text class="a" x="20" y="672.5" style="animation-delay:8.9s" xml:space="preserve">@@@@@%*##%%%%############%%%#####---%%%######%####%%#%%%%%%%%%%%%%%@@@%%%%%%%%%%</text>
 
-  <!-- Sequenza di Caricamento Profilo -->
-  <g class="text">
-    <text x="60" y="430" opacity="0">> INITIALIZING SECURE AI ECOSYSTEMS... <tspan class="ok">[OK]</tspan><animate attributeName="opacity" values="0;1" begin="8.0s" dur="0.05s" fill="freeze"/></text>
-    <text x="60" y="460" opacity="0">> MOUNTING 20+ YEARS OF EXPERIENCE... <tspan class="ok">[OK]</tspan><animate attributeName="opacity" values="0;1" begin="8.8s" dur="0.05s" fill="freeze"/></text>
-  </g>
-
-  <!-- Cursore Lampeggiante Finale -->
-  <rect class="cursor" x="580" y="440" width="12" height="18" opacity="0">
-    <!-- Appare alla fine della sequenza -->
-    <animate attributeName="opacity" values="0;1;0;1;0;1;0;1;1" begin="9.5s" dur="0.8s" fill="freeze" />
-    <!-- Poi lampeggia all'infinito -->
-    <animate attributeName="opacity" values="1;0;1" begin="10.3s" dur="1s" repeatCount="indefinite" />
-  </rect>
+  <!-- RIGA FINALE -->
+  <text class="b" x="30" y="698" style="animation-delay:9.2s">SOLUTION ARCHITECT | AI SYSTEMS ENGINEER</text>
+  <text class="c2" x="414" y="698">█</text>
 </svg>
+
