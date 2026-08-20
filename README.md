@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="./c64.svg?v=3" alt="Commodore 64 Intro" width="100%" />
+<img src="./c64.svg?v=4" alt="Commodore 64 Intro" width="100%" />
 
 <br/>
 
