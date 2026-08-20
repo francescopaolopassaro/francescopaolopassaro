@@ -33,9 +33,7 @@
 
 <br/>
 
-┌─────────────────────────────────────────────────────────────────┐
-│  TECHNICAL SKILLS & ECOSYSTEMS                                  │
-└─────────────────────────────────────────────────────────────────┘
+## ▌ TECHNICAL SKILLS & ECOSYSTEMS
 
 🌐 **Architectures**: SOA, Microservices, REST API, CQRS, Cloud-native, Event-Driven, Secure-by-Design, RabbitMQ/Kafka  
 ![SOA](https://img.shields.io/badge/SOA-1C3C3C?style=flat-square)
@@ -101,9 +99,7 @@
 
 <br/>
 
-┌─────────────────────────────────────────────────────────────────┐
-│  INNOVATION PROJECTS — ARTIFICIAL INTELLIGENCE                  │
-└─────────────────────────────────────────────────────────────────┘
+## ▌ INNOVATION PROJECTS — ARTIFICIAL INTELLIGENCE  
 
 Creator and developer of proprietary AI solutions for automation and data protection.
 
@@ -118,9 +114,7 @@ Creator and developer of proprietary AI solutions for automation and data protec
 
 <br/>
 
-┌─────────────────────────────────────────────────────────────────┐
-│  BLAZOR COMPONENTS (FREE FOR DEV)                               │
-└─────────────────────────────────────────────────────────────────┘
+## ▌ BLAZOR COMPONENTS (FREE FOR DEV)  
 
 | Project | Description | Tech |
 |---------|-------------|------|
@@ -128,9 +122,8 @@ Creator and developer of proprietary AI solutions for automation and data protec
 
 <br/>
 
-┌─────────────────────────────────────────────────────────────────┐
-│  UI/UX - ACCESSIBILITY                                          │
-└─────────────────────────────────────────────────────────────────┘
+## ▌ UI/UX - ACCESSIBILITY   
+
 
 | Project | Description | Tech |
 |---------|-------------|------|
@@ -138,9 +131,7 @@ Creator and developer of proprietary AI solutions for automation and data protec
 
 <br/>
 
-┌─────────────────────────────────────────────────────────────────┐
-│  OPEN SOURCE PROJECTS                                           │
-└─────────────────────────────────────────────────────────────────┘
+## ▌ OPEN SOURCE PROJECTS   
 
 ### 💻 Blazor & .NET
 | Project | Description | Tech |
