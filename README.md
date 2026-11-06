@@ -99,6 +99,22 @@
 
 <br/>
 
+##  Important Update: Reversion to Standard MIT License (Effective Retroactively)
+
+Dear Community,
+
+We are writing to announce an important change regarding the licensing of our project.
+
+Effective immediately, all versions and components of this project are returning to the standard MIT License. Furthermore, this change applies retroactively to all previous releases and contributions.
+
+What This Means for You
+
+Standard MIT Terms: You are free to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the software under the terms of the standard MIT License.
+
+Retroactive Application: The MIT License terms now cover all past releases, commits, and code versions. If you previously used or integrated any past release, it is now officially licensed under the MIT License without additional restrictions.
+
+Simplification: We aim to ensure maximum flexibility, transparency, and ease of integration for all developers, contributors, and enterprise users.
+
 ## ▌ INNOVATION PROJECTS — ARTIFICIAL INTELLIGENCE  
 
 Creator and developer of proprietary AI solutions for automation and data protection.
