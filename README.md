@@ -121,7 +121,7 @@ Creator and developer of proprietary AI solutions for automation and data protec
 
 | Project | Description |
 |---------|-------------|
-| **Kodinn** | Multi-agent, multi-provider, multi-role AI orchestrator (local/cloud) with autonomous context management, hardware monitoring and custom connectors |
+| [**Kodinn Agent**]([https://github.com/francescopaolopassaro/DesireeIA](https://github.com/francescopaolopassaro/kodinn-agent)) | Multi-agent, multi-provider, multi-role AI orchestrator (local/cloud) with autonomous context management, hardware monitoring and custom connectors |
 | [**DesireeIA**](https://github.com/francescopaolopassaro/DesireeIA) | A local large language model inference engine : a native C++17 core exposed through a stable C ABI, with an idiomatic .NET/Python wrapper on top.  |
 | [**Synthelion**](https://github.com/francescopaolopassaro/Synthelion) | Prompt-compression engine that runs before any AI model — cutting token usage by up to 70%, reducing API costs and speeding up responses. Works with Claude Code, OpenAI, LangChain, OpenCode, Cursor. 50+ languages, no AI model required, zero configuration |
 | [**Caveman**](https://github.com/francescopaolopassaro/caveman) | C# library that reduces LLM prompt tokens by removing grammatical noise |
